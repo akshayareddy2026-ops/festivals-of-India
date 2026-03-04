@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Festivals of India</title>
+    <title>Festivals Classroom</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>🌸 Festivals of India 🌸</h1>
+<h1>🏫 Indian Festivals Classroom</h1>
 
-    <div class="festival">
-        <h2>Diwali</h2>
-        <p><strong>Why we celebrate:</strong> Lord Rama returned to Ayodhya after defeating Ravana.</p>
-        <p><strong>Significance:</strong> Victory of good over evil and light over darkness.</p>
+<div class="classroom">
+    <img src="https://cdn-icons-png.flaticon.com/512/4140/4140037.png" class="teacher">
+    
+    <div class="board">
+        <p id="boardText">Click a festival to begin the lesson...</p>
     </div>
+</div>
 
-    <div class="festival">
-        <h2>Holi</h2>
-        <p><strong>Why we celebrate:</strong> Based on the story of Prahlada and Holika.</p>
-        <p><strong>Significance:</strong> Festival of colors and unity.</p>
-    </div>
+<div class="buttons">
+    <button onclick="speakFestival('diwali')">Diwali</button>
+    <button onclick="speakFestival('holi')">Holi</button>
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
